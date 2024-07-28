@@ -62,3 +62,11 @@ def myfun():
     print(m , s)
 myfun()
 print(s,m)
+
+name = (input('enter your name '))
+print('Here is your name:'+name)
+age = (input('How old are you:'))
+print('Here is your age'+age)
+color =(input('what is your favorite?:'))
+print('Here is your favorite color:')
+
