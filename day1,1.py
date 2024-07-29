@@ -45,3 +45,4 @@ age = (input('How old are you:'))
 print('Here is your age'+age)
 color =(input('what is your favorite?:'))
 print('Here is your favorite color:')
+
