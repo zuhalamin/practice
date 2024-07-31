@@ -71,5 +71,9 @@ is_hot = False
 if is_sunny and not is_hot:
     print('It is a good day for walking')
 
+x = 10 
+y = 20 
+is_greater =x>y
+print(is_greater)
 
 
