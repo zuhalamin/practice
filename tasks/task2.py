@@ -24,3 +24,21 @@
 #########################
 # WRITE YOUR CODE BELOW #
 #########################
+def comper_numbers(first,second):
+    if first>second:
+     print('The first number is greater than the second number.')
+    elif first<second:
+     print('The first number is less than the second number.')
+    else:
+     print('Both numbers are equal.')
+
+
+
+
+num1=input('Enter first number:')
+num2=input('Enter your second number:')
+comper_numbers(num1,num2)
+
+num3=input('Enter first number:')
+num4=input('Enter your second number:')
+comper_numbers(num3,num4)
