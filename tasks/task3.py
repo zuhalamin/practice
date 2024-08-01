@@ -24,3 +24,17 @@
 #########################
 # WRITE YOUR CODE BELOW #
 #########################
+def determine_age_group(age):
+    if age<0:
+        print('Age is incorect')
+    elif age<=12:
+        print('Child')
+    elif age<=19:
+        print('Teen')
+    elif age<=64:
+        print('Adult')
+    else:
+        print('Senior') 
+
+user=int(input('Enter your age:'))
+determine_age_group(user)
