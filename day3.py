@@ -156,8 +156,6 @@ while keepgoing:
     else:
         print('Okey,Keepgoing ..')
         keepgoing=True
-
-
-print('bay')
+ 
 
  
