@@ -22,3 +22,22 @@
 #########################
 # WRITE YOUR CODE BELOW #
 #########################
+ 
+
+def sum_of_even_numbers(start,end):
+
+    list = range(start,end+1)
+    total=0
+    for item in list:
+        x = item % 2
+       
+
+        if x == 0:
+          total +=item
+
+    print(total)
+start=int(input("Enter your start number: " ))
+end=int(input("Enter your  end number: "))  
+sum_of_even_numbers(start,end)
+
+
