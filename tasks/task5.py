@@ -23,3 +23,11 @@
 #########################
 # WRITE YOUR CODE BELOW #
 #########################
+
+def sum_of_list(numbers_list):
+    list= range(numbers_list)
+    for sum in list:
+        x += sum
+        print(sum)
+number=int(input("Enter your number: ")) 
+sum_of_list(numbers_list=[])  
