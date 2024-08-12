@@ -24,10 +24,17 @@
 # WRITE YOUR CODE BELOW #
 #########################
 
+
 def sum_of_list(numbers_list):
-    list= range(numbers_list)
-    for sum in list:
-        x += sum
+    for sum in numbers_list:
+        print(sum +=x)
+        
+x=[1,3,2,4,5]
+sum_of_list(x) 
+
+list=[1,2,3,5,6]
+def sum_of_list(numbers_list):
+    for sum in numbers_list:
+        sum +=list
         print(sum)
-number=int(input("Enter your number: ")) 
-sum_of_list(numbers_list=[])  
+sum_of_list()
