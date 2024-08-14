@@ -24,17 +24,15 @@
 # WRITE YOUR CODE BELOW #
 #########################
 
-
 def sum_of_list(numbers_list):
-    for sum in numbers_list:
-        print(sum +=x)
-        
-x=[1,3,2,4,5]
-sum_of_list(x) 
+    sum=0
+    for iteam in numbers_list:
+        sum += int(iteam)
+    print(sum)
 
-list=[1,2,3,5,6]
-def sum_of_list(numbers_list):
-    for sum in numbers_list:
-        sum +=list
-        print(sum)
-sum_of_list()
+ 
+input_user=input("Enter comma separated naumbers :")
+lst=input_user.split(",")
+
+sum_of_list(lst)
+
