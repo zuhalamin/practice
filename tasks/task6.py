@@ -28,3 +28,15 @@
 #########################
 # WRITE YOUR CODE BELOW #
 #########################
+
+def find_max_and_min(numbers_list):
+
+    maximum=max(numbers_list)
+    minimum=min(numbers_list)
+    print("Max :" ,max(numbers_list))
+    print("Min :" ,min(numbers_list))
+    
+input_user=input("Enter your naumber :")
+lst = input_user.split(",")
+
+find_max_and_min(lst)
