@@ -25,3 +25,18 @@
 # ================================================================================================
 # WRITE YOUR CODE BELOW #
 # ================================================================================================
+
+
+def count_number(sentance):
+    count=0
+    vowel =["a","e","i","o","u"]
+    for word in sentance.lower():
+        for latter in word:
+            if latter in vowel:
+              count += 1
+    print("number of vowel in :",count)
+
+             
+user_input = input("Number of vowle: ")
+
+count_number(user_input)

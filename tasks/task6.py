@@ -33,10 +33,14 @@ def find_max_and_min(numbers_list):
 
     maximum=max(numbers_list)
     minimum=min(numbers_list)
-    print("Max :" ,max(numbers_list))
-    print("Min :" ,min(numbers_list))
-    
+    print("Max :" ,maximum)
+    print("Min :" ,minimum)
+number=[]  
 input_user=input("Enter your naumber :")
 lst = input_user.split(",")
+for iteam in lst:
+    number.append(float(iteam))
 
-find_max_and_min(lst)
+
+
+find_max_and_min(number)

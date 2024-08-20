@@ -29,3 +29,18 @@
 # ================================================================================================
 # WRITE YOUR CODE BELOW #
 # ================================================================================================
+
+def reverse_sentances(sentance):
+    words = sentance.split()
+    x=[]
+    for word in words:
+      x.append(word[::-1])
+
+    sentance =" ".join(x)
+    print(sentance)  
+user_input=input("Enter a sentence :")
+
+reverse_sentances(sentance=user_input)
+
+
+
