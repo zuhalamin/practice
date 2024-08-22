@@ -30,3 +30,25 @@
 # ================================================================================================
 # WRITE YOUR CODE BELOW #
 # ================================================================================================
+# 
+
+def List_of_word(words):
+    length={}
+    for x in words:
+          y=len(x)
+          length.update(len(x))
+          
+        
+       # length.update
+      #  print(length)
+
+
+           
+
+
+user_input =input("Enter words separated by spaces :")
+lst = user_input.split(" ")
+print(lst)
+
+List_of_word(lst)
+

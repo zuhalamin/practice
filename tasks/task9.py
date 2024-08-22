@@ -40,3 +40,26 @@
 # ================================================================================================
 # WRITE YOUR CODE BELOW #
 # ================================================================================================
+
+
+user_input = input("Enter Your password: ")
+
+while True:
+    if (len(user_input)>8):
+        print("The password must be at least 8 characters long.")
+              
+    elif [user_input.upper()]:
+        print("The password must contain at least one uppercase letter.")
+        
+    elif [user_input.lower()]:
+        print("The password must contain at least one lowercase letter.")
+    
+    else:
+        print("your password is valid")
+        break
+
+
+
+
+
+
