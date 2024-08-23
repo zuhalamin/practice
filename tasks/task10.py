@@ -32,23 +32,17 @@
 # ================================================================================================
 # 
 
-def List_of_word(words):
-    length={}
-    for x in words:
-          y=len(x)
-          length.update(len(x))
-          
-        
-       # length.update
-      #  print(length)
+def convert_words_to_dic(words_list):
+      dic={}
+      for word in words_list:
+            dic[word]=len(word)
+
+      print(dic)
 
 
-           
+user_input=input("Enter words separeted by space :")
+lst=user_input.split()
 
+convert_words_to_dic(lst)
 
-user_input =input("Enter words separated by spaces :")
-lst = user_input.split(" ")
-print(lst)
-
-List_of_word(lst)
 

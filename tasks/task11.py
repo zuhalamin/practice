@@ -51,3 +51,26 @@
 # ================================================================================================
 # WRITE YOUR CODE BELOW #
 # ================================================================================================
+
+user_input=input("Enter a string:")
+new_input= user_input.replace(" ","")
+
+
+dic={}
+
+for lst in new_input:
+
+    if lst in dic:
+        dic[lst] +=1
+    else:
+        dic[lst]=1
+
+
+print("Character frequenciesf: ")
+
+for charactr,char in dic.items():
+    print(f"{charactr}:{char}")
+
+
+
+    

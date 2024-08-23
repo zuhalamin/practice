@@ -42,24 +42,52 @@
 # ================================================================================================
 
 
-user_input = input("Enter Your password: ")
+"""password="zuhal12"
+
+if len(password) < 8:
+    print("Password is too short.")
+for char in password:
+    if char.isupper():
+        print("Password must contain at least one uppercase letter")""
+"""
 
 while True:
-    if (len(user_input)>8):
-        print("The password must be at least 8 characters long.")
-              
-    elif [user_input.upper()]:
-        print("The password must contain at least one uppercase letter.")
-        
-    elif [user_input.lower()]:
-        print("The password must contain at least one lowercase letter.")
-    
-    else:
-        print("your password is valid")
-        break
 
+    password=input("Enter a password :")
 
+    if len(password) < 8:
+        print("Password is too short.")
+        continue
 
+    continue_upper = False
+    continue_lower = False
+    continue_digit = False
+
+    for char in password:
+
+        if char.isupper():
+            continue_uppper = True
+
+        if char.islower():
+            continue_lower = True
+
+        if char.isdigit():
+            continue_digit = True
+
+    if not continue_upper:
+        print("Password must contain at least one uppercase letter.")
+        continue
+
+    if not continue_lower:
+        print("Password must contain at least one lowercase letter.")
+        continue
+
+    if not continue_digit:
+        print("Password must contain at least one digit.")
+        continue
+
+    print("Password is valid!")
+    break
 
 
 
